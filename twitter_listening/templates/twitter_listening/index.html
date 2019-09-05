@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Science Sebrae Minas - Twitter Listening App</title>
+</head>
+<body>
+{% for result in results %}
+    {{ result.id_str}}
+    {{ result.text}}
+{% endfor %}
+</body>
+</html>
