@@ -12,16 +12,16 @@ from pymongo import MongoClient
 import pandas as pd
 
 # Adicione aqui sua Consumer Key
-consumer_key = "62vP2XbCQCARr45T1eRfujFRj"
+consumer_key = ""
 
 # Adicione aqui sua Consumer Secret 
-consumer_secret = "Kn7egXFl3rXDey4lNwDnI8Z15z5ns8HcRFVs4K3SpC7l5Cw9EQ"
+consumer_secret = ""
 
 # Adicione aqui seu Access Token
-access_token = "38415536-PDDBURjESabE3v0QCoO985jLYgepgbkjC1ebKWi9H"
+access_token = ""
 
 # Adicione aqui seu Access Token Secret
-access_token_secret = "plhW2jtEazLERfCESoOsgZdpTPu3DCVQ5Anf3k8RAv8A6"
+access_token_secret = ""
 
 # Criando as chaves de autenticação
 auth = OAuthHandler(consumer_key, consumer_secret)
